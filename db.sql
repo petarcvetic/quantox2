@@ -36,15 +36,15 @@ CREATE TABLE IF NOT EXISTS `members` (
   `resetComplete` varchar(3) DEFAULT 'No',
   `status` enum('0','1','2','3','4') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '1',
   PRIMARY KEY (`memberID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `members`
 --
 
 INSERT INTO `members` (`memberID`, `username`, `password`, `email`, `active`, `resetToken`, `resetComplete`, `status`) VALUES
-(10, 'petar', '$2y$10$3ocQBEYOl4skbbKw0DKqluOU/n0d/2SQ7YSHBBk/y/5bAM7MUg.Km', 'petar.cvetic@gmail.com', 'Yes', NULL, 'Yes', '1'),
-(11, 'admin', '$2y$10$2bEobhx6B5ggkWBEJhVeTuPxpAy8XyDB0XnVihhGCpt94UPdEOwKC', 'admin@gmail.com', 'Yes', NULL, 'Yes', '1');
+(1, 'petar', '$2y$10$3ocQBEYOl4skbbKw0DKqluOU/n0d/2SQ7YSHBBk/y/5bAM7MUg.Km', 'petar.cvetic@gmail.com', 'Yes', NULL, 'Yes', '1'),
+(2, 'admin', '$2y$10$2bEobhx6B5ggkWBEJhVeTuPxpAy8XyDB0XnVihhGCpt94UPdEOwKC', 'admin@gmail.com', 'Yes', NULL, 'Yes', '1');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
