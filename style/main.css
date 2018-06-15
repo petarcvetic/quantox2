@@ -1,0 +1,57 @@
+
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+
+.header{
+	color:#7b061d;
+	height:20vh;
+	background: linear-gradient(to bottom right, #f1e3b5, #7e8c8d);
+}
+
+.naslov{
+	margin:0;
+	padding:10px 0;
+}
+
+.naslov h1{
+	margin:0;
+	padding:0;
+}
+
+.login{
+	float:right;
+	width: 200px;
+}
+
+.container{
+	min-height:75vh;
+}
+
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float:right;
+}
+
+
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+.footer{
+	color:#7b061d;
+	height:5vh;
+	background: linear-gradient(to bottom right, #f1e3b5, #7e8c8d);
+}
+
+
+
+
+
+
